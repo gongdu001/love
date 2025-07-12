@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Heart, Stars, Sparkles, Users, Calendar, Clock, Moon, Sun, Info, Activity, Shield, Zap, Target, Compass } from 'lucide-react';
-import './app.css';
 
 const LoveCompatibilityApp = () => {
   const [step, setStep] = useState(0);
